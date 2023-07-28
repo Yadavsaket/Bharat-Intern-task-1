@@ -1,0 +1,95 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #141414;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar img {
+    height: 40px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main {
+    padding: 40px;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #e50914;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.photo {
+    flex: 0 0 30%;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
